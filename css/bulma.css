@@ -19,6 +19,18 @@
             transform: rotate(359deg);
   }
 }
+.my-th{
+
+}
+.my-scroll{
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.my-th:hover{
+  background-color: rgba(0,255,0,0.9);
+
+}
 .my-1-3-trans{
   background: rgba(0,0,0,0.3) !important;
 }
@@ -31,9 +43,35 @@
 .my-pad-btn-2{
   padding-bottom: 2rem;
 }
-
+.my-span-pad-3{
+  padding:3rem;
+}
+.my-span-pad-2{
+  padding:2rem;
+}
+.my-span-pad-5{
+  padding:5rem;
+}
 .my-full-height{
   min-height: 100vh;
+}
+.my-image-round{
+  border-radius: 50%;
+}
+.my-image-size-3{
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+}
+.my-image-size-2{
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+}
+.my-image-size-5{
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
 }
 .delete, .modal-close, .is-unselectable, .button, .file, .breadcrumb, .pagination-previous,
 .pagination-next,
@@ -63,7 +101,7 @@
 }
 .my-border-blue{
   border-color: #00ffff;
-  border-radius: 1px !important;
+
   border-width: 1px ;
   border-style:solid;
 }
@@ -121,6 +159,12 @@
   border-radius: 3px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative;
+}
+.my-notification:hover{
+  background-color: rgba(0,0,0,0.6);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0ff;
 }
 
 
@@ -4408,7 +4452,21 @@ a.box:active {
   height: 2rem;
   width: 2rem;
 }
+.icon.my-is-large{
+  height: 6rem;
+  width: 6rem;
+}
+.icon.my-icon-font-36{
+  font-size: 36px;
+}
+.icon.my-icon-font-36:hover{
+  font-size: 54px;
+}
 
+
+.icon.my-icon-font-24{
+  font-size: 24px;
+}
 .icon.is-large {
   height: 3rem;
   width: 3rem;
